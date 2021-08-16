@@ -8,12 +8,14 @@ const breakPoints = [
 ];
 
 const Item = ({
-  items
+  imgs
 }) => {
   return <Carousel breakPoints={breakPoints}>
-    <img src={'%PUBLIC_URL%/img/construction1.jpeg'} alt="Chen's Constrctuon"></img>
-    <img src={'./img/construction2.jpeg'} alt="Chen's Constrctuon"></img>
-    
+    {
+      imgs.map((img, idx) => {
+        return <img key={idx} src={img.src} alt="Chen's Constrctuon" height={250}/>
+      })
+    }
   </Carousel>
 }
 
