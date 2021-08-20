@@ -42,8 +42,12 @@ const Footer = () => {
     return(
         <>
         <hr className="seperator" />
-        <div className="carousel-wrapper">
-            <Item imgs={imgs} />
+        <div>
+          
+          <div className="carousel-wrapper">
+            整修成果展示
+          </div>
+          <Item imgs={imgs} />
         </div>    
         <div className='businessCards'>
             <img src={weichert}></img>

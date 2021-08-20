@@ -9,10 +9,10 @@ const Header = () => {
       <div className="top-wrap">
         <div className='nav-bar'>
           <Link className='nav-item' to='/'>首页</Link>
-          <Link className='nav-item' to='customerreview'>客户评价</Link>
-          <Link className='nav-item' to='realestate'>房产文章</Link>
-          <Link className='nav-item' to='schooldistrict'>学区分析</Link>
-          <Link className='nav-item' to='about'>关于我们</Link>
+          <Link className='nav-item' to='/customerreview'>客户评价</Link>
+          <Link className='nav-item' to='/realestate'>房产文章</Link>
+          <Link className='nav-item' to='/schooldistrict'>学区分析</Link>
+          <Link className='nav-item' to='/about'>关于我们</Link>
         </div>
       </div>
     </>)

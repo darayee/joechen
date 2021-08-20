@@ -1,5 +1,25 @@
 @import "~bootstrap/scss/bootstrap";
 
+h5{
+  font-size: 1.17em;
+}
+
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #f1572f;
+  font-size: 18px;
+}
+a:hover 
+{
+  color: black;
+  cursor: pointer;
+}
+
+p{
+  margin-bottom: 1.5em;
+  line-height: 1.9;
+}
 .top-wrap{
   background-image: url("./img/newjersey2.jpeg");
   height: 500px;
@@ -23,6 +43,7 @@
 body{
   font-family: "AvenirNext LT Pro",Helvetica,sans-serif;
   line-height: 1.5;
+ 
 }
 
 .nav-bar{
@@ -33,6 +54,9 @@ body{
   a{
     color: black;
     text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
   }
   .nav-item{
     padding: 10px 30px;
@@ -113,4 +137,53 @@ body{
   }
 }
 
+.marker{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  background-color: red;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  user-select: none;
+  transform: translate(-50%, -50%);
+  font-size: x-large;
+  &:hover {
+    z-index: 1;
+  }
+  padding: 10px;
+}
 
+.realEstateLinks{
+  display: inline-block;
+  margin: 10px;
+  hr{
+    display: block;
+  }
+}
+.realEstateLink{
+  margin: 20px;
+  h5{
+    padding-top:10px;
+    padding-bottom: 10px;
+  }
+}
+
+.carousel-wrapper{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.propertyTaxImg {
+  width: 300px;
+  float: right;
+  margin: 20px;
+  
+}
+.septic{
+  width: 300px;
+  float: right;
+  margin: 20px;
+}
